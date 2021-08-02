@@ -1,0 +1,43 @@
+body{
+    background-color: #161335;
+}
+.head-tag{
+    font-family: Cursive;
+    font-size: 30px; 
+    padding-top: 30px;
+    padding-left: 40px;
+    color: white;
+}
+.input-txt{
+    border-style: none;
+    background-color: transparent;
+    border-bottom-style: solid;
+    border-radius: 5px;
+    margin-left: 30%;
+    width: 40%;
+    font-size: 16px;
+    padding: 5px;
+    transition: .9s;
+}
+.input-txt:focus,.input-txt:hover{
+    border-style: none;
+    background-color: transparent;
+    border-bottom-style: solid;
+    border-radius: 5px;
+    width: 60%;
+    margin-left: 20%;
+}
+.panelBack{
+    background-color: rgba(255,240,245, .6);
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 5px black;
+}
+::placeholder{
+    color: black;
+    font-size: 16px;
+}
+.plant-txt{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding-left: 200px;
+}
